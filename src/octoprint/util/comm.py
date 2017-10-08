@@ -169,7 +169,7 @@ def serialList():
 
 def baudrateList():
 	# sorted by likelihood
-	candidates = [115200, 250000, 230400, 57600, 38400, 19200, 9600]
+	candidates = [115200, 250000, 230400, 57600, 38400, 19200, 9600, 500000, 1000000]
 
 	# additional baudrates prepended, sorted descending
 	additionalBaudrates = settings().get(["serial", "additionalBaudrates"])
